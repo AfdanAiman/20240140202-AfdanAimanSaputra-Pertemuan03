@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asisten AI UMKM | Rental Transportasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container header">
+        <a class="brand" href="#beranda">Asisten AI untuk UMKM</a>
+        
+    </header>
+
+    <main class="container">
+        <section class="hero" id="beranda">
+            <div>
+                <p class="eyebrow">PENYEWAAN TRANSPORTASI</p>
+                <h1>Perjalanan jadi lebih mudah.</h1>
+                <p>Pilih kendaraan yang sesuai untuk kebutuhan harian, keluarga, atau cepat dan efisien juga anti macet.</p>
+                <a class="button-link" href="#formdata">Pesan kendaraan</a>
+            </div>
+            <img src="Transport.jpg" alt="Kendaraan untuk disewa">
+        </section>
+
+        <section class="section" id="kendaraan">
+            <h2>Pilihan kendaraan</h2>
+            <div class="vehicle-grid">
+                <article class="vehicle-item">
+                    <h3>Mobil</h3>
+                    <p>Nyaman untuk perjalanan bersama keluarga.</p>
+                </article>
+                <article class="vehicle-item">
+                    <h3>Motor</h3>
+                    <p>Praktis untuk aktivitas di dalam kota.</p>
+                </article>
+                <article class="vehicle-item">
+                    <h3>Drone</h3>
+                    <p>Perjalanan cepat dan efisien juga anti macet.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section booking" id="formdata">
+            <h2>Form pemesanan</h2>
+            <form action="#formdata">
+                <div class="field">
+                    <label for="nama">Nama lengkap</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama" required>
+                </div>
+                
+                <div class="field">
+                    <label for="transportasi">Jenis transportasi</label>
+                    <select id="transportasi" name="transportasi" required>
+                        <option value="">Pilih kendaraan</option>
+                        <option value="Mobil">Mobil</option>
+                        <option value="Motor">Motor</option>
+                        <option value="Drone">Drone</option>
+                    </select>
+                </div>
+                
+                <button type="submit">Kirim permintaan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="container footer">
+        <p>Rental transportasi untuk kebutuhan Anda.</p>
+    </footer>
+</body>
+</html>
